@@ -41,7 +41,7 @@ export const get_list_trapeziods = (
     for (let step=1; step <= count_steps * 2; step++) {
         // here step = W/2
         let point_x = step * step_x / 2;
-        if (step % 2 == 0) {
+        if (step % 2 === 0) {
             // On even steps, point_x is the X-coordinate of the tangent point.
             let trapezoid_height = get_height_trapeziod(
                 point_x, focal_length, step_x

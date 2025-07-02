@@ -44,8 +44,7 @@ const ResultPicture = (props: ResultPictureType) => {
             const context = canvas.getContext('2d');
             draw(context)
         }
-        
-    },[draw]
+    }
 );
 
 
